@@ -35,17 +35,17 @@ const compareChoice = (human, computer) => {
     let templates = [
         {
             i: "R",
-            src: "/assets/img/Rock.png",
+            src: "assets/img/Rock.png",
             beat: "S",
         },
         {
             i: "P",
-            src: "/assets/img/Paper.png",
+            src: "assets/img/Paper.png",
             beat: "R",
         },
         {
             i: "S",
-            src: "/assets/img/Scissors.png",
+            src: "assets/img/Scissors.png",
             beat: "P",
         }
     ]
