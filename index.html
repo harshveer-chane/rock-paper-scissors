@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/scss/style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <main id="main-container">
+
+        <div class="main-title">
+            <h1>Rock, Paper, Scissors</h1>
+            <p>To Select, Click On The Image.</p>
+        </div>
+
+        <div class="score-round-holder">
+            <h1>Round: <span id="round">0</span></h1>
+            <h1>Human Score: <span id="human-scores">0</span></h1>
+            <h1>Computer Score: <span id="computer-scores">0</span></h1>
+        </div>
+
+        <div class="options-holder">
+            <ul class="icons-holder">
+                <li class="rock">
+                    <a href="#" data-selection="option-R" id="option">
+                        <img src="/assets/img/Rock.png" alt="">
+                    </a>
+                </li>
+                <li class="paper">
+                    <a href="#" data-selection="option-P" id="option">
+                        <img src="/assets/img/Paper.png" alt="">
+                    </a>
+                </li>
+                <li class="scissors">
+                    <a href="#" data-selection="option-S" id="option">
+                        <img src="/assets/img/Scissors.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="event-holder">
+            <h1 id="event"></h1>
+            <div class="event-instance">
+                <div class="computer">
+                    <h1>Computer chose</h1>
+                    <img id="computer-icon" src="/assets/img/Paper.png" alt="">
+                </div>
+                <h1>and</h1>
+                <div class="human">
+                    <h1>You chose</h1>
+                    <img id="human-icon" src="/assets/img/Scissors.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="/src/main.js"></script>
+</body>
+</html>
